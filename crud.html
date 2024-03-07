@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="crud">
@@ -14,12 +15,12 @@
       </div>
       <div class="inputs">
          <input type="text" class="title" placeholder="title">
-         <div class="price">
-          <input onkeyup="getTotal()" type="number" class="taman" placeholder="taman" >
-          <input onkeyup="getTotal()" type="number" class="taxese" placeholder="taxes">
-          <input onkeyup="getTotal()" type="number" class="adss" placeholder="ads">
-          <input onkeyup="getTotal()" type="number" class="discounte" placeholder="discount">
-          <small id="totale">4444444</small>
+         <div id="price">
+          <input onkeyup="getTotal()" type="number" class="price" placeholder="price" >
+          <input onkeyup="getTotal()" type="number" class="taxes" placeholder="taxes">
+          <input onkeyup="getTotal()" type="number" class="ads" placeholder="ads">
+          <input onkeyup="getTotal()" type="number" class="discount" placeholder="discount">
+          <small id="total">4444444</small>
          </div>
          <input type="number" class="count" placeholder="count">
          <input type="text" class="categorie" placeholder="categorie">
@@ -67,6 +68,6 @@
 
 
     </div>
-    <script src="main.js"></script>
+    
 </body>
 </html>
